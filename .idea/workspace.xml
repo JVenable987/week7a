@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d9ee19f9-cc16-478b-9ef6-92d5d45bbb3c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CSC3916_HW5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CSCI3916_HW2_Joshua_Venable/week4" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -61,8 +59,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.server.js" />
         <item itemvalue="npm.test" />
+        <item itemvalue="Node.js.server.js" />
       </list>
     </recent_temporary>
   </component>
@@ -86,7 +84,8 @@
       <workItem from="1583958915797" duration="1157000" />
       <workItem from="1584305755975" duration="3079000" />
       <workItem from="1584313918782" duration="6211000" />
-      <workItem from="1584329376664" duration="2000000" />
+      <workItem from="1584329376664" duration="3618000" />
+      <workItem from="1584336339523" duration="1308000" />
     </task>
     <servers />
   </component>
@@ -101,10 +100,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1584329403805">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1584337104881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584329403805" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584337104881" />
     <state width="1345" height="217" key="GridCell.Tab.0.bottom" timestamp="1584327120865">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

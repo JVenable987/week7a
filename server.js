@@ -98,5 +98,57 @@ router.post('/signin', function(req, res) {
     });
 });
 
+router.get('/movies', function(req, res){
+    console.log(req.body);
+    res = res.status(200);
+    res.json({headers: req.headers,
+        queries: req.query,
+        env: process.env.SECRET_KEY,
+        msg: "GET movies"
+    });
+});
+router.put('/movies', passport.authenticate("jwt", {session:false}), function(req, res){
+    console.log(req.body);
+    res = res.status(200);
+    res.json({headers: req.headers,
+        queries: req.query,
+        env: process.env.SECRET_KEY,
+        msg:"movie updated",
+        auth: true
+    });
+});
+router.post('/movies', function(req, res) {
+    console.log(req.body);
+    res = res.status(200);
+    res.json({headers: req.headers,
+        queries: req.query,
+        env: process.env.SECRET_KEY,
+        msg:"movie saved"
+    });
+});
+router.delete('/movies', passport.authenticate("jwt", {session:false}), function(req, res){
+    console.log(req.body);
+    res = res.status(200);
+    res.json({
+        headers: req.headers,
+        queries: req.query,
+        env: process.env.SECRET_KEY,
+        msg: "movie deleted",
+        auth: true
+    });
+});
+router.all('/signup', function(req, res){
+    res = res.status(405).send({success: false, msg: "Method not supported"});
+});
+router.all('/signin', function(req, res){
+    res = res.status(405).send({success: false, msg: "Method not supported"});
+});
+router.all('/movies', function(req, res){
+    res = res.status(405).send({success: false, msg: "Method not supported"});
+});
+router.all('/*', function(req, res){
+    res = res.status(404).send({success: false, msg: "page not found"})
+});
+
 app.use('/', router);
 app.listen(process.env.PORT || 8080);
