@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9ee19f9-cc16-478b-9ef6-92d5d45bbb3c" name="Default" comment="">
+    <list default="true" id="d9ee19f9-cc16-478b-9ef6-92d5d45bbb3c" name="Default" comment="Removed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
@@ -86,6 +86,10 @@
       <workItem from="1584313918782" duration="6211000" />
       <workItem from="1584329376664" duration="3618000" />
       <workItem from="1584336339523" duration="1308000" />
+      <workItem from="1586387695643" duration="793000" />
+      <workItem from="1586986124254" duration="17000" />
+      <workItem from="1587338830292" duration="653000" />
+      <workItem from="1587353569030" duration="408000" />
     </task>
     <servers />
   </component>
@@ -100,6 +104,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="326" y="0" key="CommitChangelistDialog2" timestamp="1587354014857">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="326" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587354014857" />
     <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1584337104881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

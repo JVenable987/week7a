@@ -114,18 +114,10 @@ router.get('/movies', passport.authenticate("jwt", {session:false}), function(re
         });
     }
     else{
-        holdVariable = Movie.aggregate([
-            &lookup{
-            from: Review,
-                localField: "Title",
-                foreignField: "Title",
-            as: "reviews"
-            }
-        ]);
         res.json({
             headers: req.headers,
             queries: req.query,
-            movies: holdVariable,
+            movies: movieArray,
             env: process.env.SECRET_KEY,
             msg: "GET movies"
         });
