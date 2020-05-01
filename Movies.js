@@ -14,11 +14,12 @@ var MovieSchema = new Schema({
         enum: ['Action', 'Adventure', 'Comedy', 'Drama', 'Fantasy', 'Horror', 'Mystery', 'Thriller',
     'Western', 'Unknown'],
 default: 'Unknown'},
-    ActorArray: [{ActorName: String, CharacterName: String}]
+    Actors: [{ActorName: "", CharacterName: ""}, {ActorName: "", CharacterName: ""}, {ActorName: "", CharacterName: ""}],
+    imageUrl: String
 });
 
 MovieSchema.pre('save', function(next) {
-    var user = this;
+    var movie = this;
     next();
 });
 

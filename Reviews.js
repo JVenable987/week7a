@@ -20,4 +20,4 @@ ReviewSchema.pre('save', function(next) {
 });
 
 // return the model
-module.exports = mongoose.model('Reviews', ReviewSchema);
+module.exports = mongoose.model('Review', ReviewSchema);

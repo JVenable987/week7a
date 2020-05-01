@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9ee19f9-cc16-478b-9ef6-92d5d45bbb3c" name="Default" comment="Removed">
+    <list default="true" id="d9ee19f9-cc16-478b-9ef6-92d5d45bbb3c" name="Default" comment="Removed holdvariable from server.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/Movies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/Reviews.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +61,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test" />
         <item itemvalue="Node.js.server.js" />
+        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -89,8 +91,30 @@
       <workItem from="1586387695643" duration="793000" />
       <workItem from="1586986124254" duration="17000" />
       <workItem from="1587338830292" duration="653000" />
-      <workItem from="1587353569030" duration="408000" />
+      <workItem from="1587353569030" duration="1542000" />
+      <workItem from="1587359915782" duration="466000" />
+      <workItem from="1587676266658" duration="1487000" />
+      <workItem from="1587679334955" duration="289000" />
+      <workItem from="1587682827702" duration="1657000" />
+      <workItem from="1587693263810" duration="1073000" />
+      <workItem from="1588192866618" duration="928000" />
+      <workItem from="1588195219676" duration="848000" />
+      <workItem from="1588202736345" duration="571000" />
+      <workItem from="1588221244000" duration="4142000" />
+      <workItem from="1588231784290" duration="1412000" />
+      <workItem from="1588279522952" duration="2625000" />
+      <workItem from="1588316020084" duration="1685000" />
+      <workItem from="1588324458178" duration="3842000" />
+      <workItem from="1588330068670" duration="1940000" />
     </task>
+    <task id="LOCAL-00001" summary="Removed holdvariable from server.js">
+      <created>1587354036754</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587354036754</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +127,10 @@
       </list>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Removed holdvariable from server.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed holdvariable from server.js" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="326" y="0" key="CommitChangelistDialog2" timestamp="1587354014857">
       <screen x="0" y="0" width="1366" height="728" />
@@ -112,21 +140,37 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584337104881" />
-    <state width="1345" height="217" key="GridCell.Tab.0.bottom" timestamp="1584327120865">
+    <state width="1345" height="218" key="GridCell.Tab.0.bottom" timestamp="1588332235033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="217" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584327120865" />
-    <state width="1345" height="217" key="GridCell.Tab.0.center" timestamp="1584327120864">
+    <state width="1345" height="218" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588332235033" />
+    <state width="1345" height="218" key="GridCell.Tab.0.center" timestamp="1588332235033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="217" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584327120864" />
-    <state width="1345" height="217" key="GridCell.Tab.0.left" timestamp="1584327120864">
+    <state width="1345" height="218" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588332235033" />
+    <state width="1345" height="218" key="GridCell.Tab.0.left" timestamp="1588332235033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="217" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584327120864" />
-    <state width="1345" height="217" key="GridCell.Tab.0.right" timestamp="1584327120864">
+    <state width="1345" height="218" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588332235033" />
+    <state width="1345" height="218" key="GridCell.Tab.0.right" timestamp="1588332235033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="217" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584327120864" />
+    <state width="1345" height="218" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588332235033" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server.js</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server.js</url>
+          <line>199</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
